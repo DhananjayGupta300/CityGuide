@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dhananjaygupta.application2_project3">
+    <permission android:name="edu.uic.cs478.sp18.project3"
+        android:description="@string/Permission_Dangerous"
+        android:label="Permission_dangerous"
+        android:protectionLevel="dangerous" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="edu.uic.cs478.sp18.project3"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Project3: Attraction and Resturants"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ControllingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Attractions"/>
+        <activity android:name=".ListFragmentForAttractions" />
+        <activity android:name=".PortraitFragmentForAttractions" />
+        <activity android:name=".LandFragmentForResturants" />
+        <activity android:name=".PortraitFragmentForResturants"/>
+        <activity android:name=".Resturants">
+
+        </activity>
+    </application>
+
+
+</manifest>

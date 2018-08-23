@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Permission_Dangerous">dangerous permission required by app</string>
+
+    <string-array name="Attractions">
+        <item>Adler Planetrium</item>
+        <item>Millennium Park</item>
+        <item>Navy Pier</item>
+        <item>Cloud Gate</item>
+        <item>Licoln Zoo Park</item>
+        <item>Shedd Aquarium</item>
+        <item>The Art Intstitute </item>
+        <item>The Musuem of Science and Industry</item>
+        <item>TILT</item>
+        <item>Willis Tower</item>
+    </string-array>
+
+    <string-array name="WebPage">
+        <item>https://www.adlerplanetarium.org/#DPzm7IC1Bpq5RDZr.97</item>
+        <item>https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html</item>
+        <item>https://navypier.org/</item>
+        <item>https://www.cityofchicago.org/city/en/depts/dca/supp_info/chicago_s_publicartcloudgateinmillenniumpark.html</item>
+        <item>http://www.lpzoo.org/</item>
+        <item>https://www.sheddaquarium.org/</item>
+        <item>http://www.artic.edu/</item>
+        <item>https://www.msichicago.org/</item>
+        <item>http://www.360chicago.com/</item>
+        <item>http://theskydeck.com/</item>
+    </string-array>
+
+    <string-array name="RestaurantWebPage">
+        <item>http://girlandthegoat.com/</item>
+        <item>https://www.loumalnatis.com/</item>
+        <item>https://docbsfreshkitchen.com/</item>
+        <item>http://www.everestrestaurant.com/</item>
+        <item>https://www.portillos.com/index.html</item>
+        <item>http://www.rosebudrestaurants.com/</item>
+    </string-array>
+
+    <string-array name="Restaurant">
+        <item>Grill and the Goat</item>
+        <item>Lou Maltini</item>
+        <item>Doc B's Fresh Kitchen</item>
+        <item>Everest</item>
+        <item>Portilios</item>
+        <item>Rosebud</item>
+    </string-array>
+</resources>
